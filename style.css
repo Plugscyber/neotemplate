@@ -4,15 +4,10 @@
    
    https://www.freecodecamp.org/ is a great place to learn HTML/CSS*/
 
-body {
+body{
   background-color:LightCyan;
   color: black;
   font-family: Verdana;
-  margin:0;
-}
-
-main, header{
-  margin-left:5px;
 }
 
 /* Add a grey-green background color to the top navigation */
@@ -37,7 +32,7 @@ main, header{
   background-color:Teal;
 }
 
-/* Add an active class to highlight the current page */
+/* Add an active class to highlight the current page. */
 .navbar a.active {
   background-color:LightSeaGreen;
 }
@@ -48,7 +43,7 @@ main, header{
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("index"). Show the link that should open and close the navbar (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 62em)  {
   .navbar a:not(:first-child) {
   display: none;
 }
